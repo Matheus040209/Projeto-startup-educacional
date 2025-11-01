@@ -1,0 +1,135 @@
+@media (min-width: 769px ){
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #F9F9F9;
+        margin-bottom: 0px;
+       }
+       
+     main{
+        text-align: center;
+        color: rgb(56, 55, 55);
+       }
+
+
+       header{
+           display: flex;
+           justify-content: space-between;
+           background-color: rgb(200, 245, 245);
+           align-items: center;
+       }
+       
+       .logo{
+           height: 100px;
+       }
+       
+       
+       a{
+           padding: 7px;
+           text-decoration: none;
+           color: black;
+       
+       }
+       
+       header a:hover{
+        text-decoration: underline;
+       }
+
+       main a:hover{
+          transform: scale(1.05);
+        box-shadow: 0 0 10px #60A5FA;
+       }
+       
+     footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    align-self: flex-end;
+    margin-top: 342px;
+    
+    
+}
+.footer img {
+    height: 25px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footer img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #60A5FA;
+}
+
+.sobre p{
+    text-align: left;
+}
+
+    }
+
+@media (max-width: 768px){
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #F9F9F9;
+        margin-bottom: 0px;
+           
+       }
+       
+           main{
+        text-align: center;
+        color: rgb(56, 55, 55);
+       }
+
+      main a{
+        background-color: gainsboro;
+        border-radius: 6px;
+        box-shadow: 3px 3px 3px;
+        text-decoration: none;
+       }
+       header{
+           display: flex;
+           justify-content: space-between;
+           background-color: rgb(200, 245, 245);
+           align-items: center;
+       }
+       
+       .logo{
+           height: 100px;
+       }
+       
+       
+       a{
+           padding: 7px;
+           text-decoration: none;
+           color: black;
+       
+       }
+       
+       a:hover{
+          text-decoration: underline;
+       }
+       
+       
+    footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    margin-top: 342px;
+    
+}
+.footer img {
+    height: 25px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footer img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #60A5FA;
+}
+
+.sobre p{
+    text-align: left;
+}
+
+}

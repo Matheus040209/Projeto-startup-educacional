@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto StartEdu</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      @media (min-width: 769px){
+       
+       main a{
+           background-color: gainsboro;
+           padding: 10px;
+           border-radius: 6px;
+           box-shadow: 3px 3px 3px;
+           text-decoration: none;
+           text-align: center;
+       }
+       
+       .sobre{
+           display: grid;
+           align-items: center;
+           justify-items: center;
+           grid-template-columns: 1fr 1fr;
+           gap: 53px;
+           margin-top: 100px;
+       }
+       .sobre p{
+           margin: 30px 30px 30px 160px;
+       }
+       
+       .sobre img{
+           height: 350px;
+           border-radius: 10px;
+       }
+       
+       .destaques{
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+       }
+       .cards{
+           gap: 45px;
+           background-color: #A8E6CF;
+           border-radius: 10px;
+           margin: 30px;
+           margin-top: 150px;
+           padding: 20px;
+       }
+       
+       .cards:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #60A5FA;
+       }
+      }
+
+      @media (max-width: 768px){
+ 
+       main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+
+       main a{
+           background-color: gainsboro;
+           border-radius: 6px;
+           padding: 10px;
+           box-shadow: 3px 3px 3px;
+           text-decoration: none;
+           text-align: center;
+
+       }
+       
+       .sobre{
+           display: grid;
+           grid-template-columns: 1fr;
+           gap: 53px;
+           margin-top: 100px;
+       }
+       .sobre p{
+           margin: 30px;
+           padding: 15px;
+       }
+       
+       .sobre img{
+           height: 350px;
+           border-radius: 10px;
+           box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+       }
+       
+       .destaques{
+           display: grid;
+           grid-template-columns: 1fr;
+       }
+       .cards{
+           gap: 45px;
+           background-color: #A8E6CF;
+           border-radius: 10px;
+           margin: 30px;
+           margin-top: 150px;
+           padding: 20px;
+       }
+       
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./assets/img/logo.png" alt="Logo site Quero Educação">
+        <nav>
+            <a href="./index.html">Início</a>
+            <a href="./cursos.html">Cursos</a>
+            <a href="./contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Aprenda. Crie. Evolua.</h1>
+        <a href="./cursos.html">Ver cursos</a>
+
+    <div class="sobre">
+
+        <p>A <b>Quero Educação</b> nasceu com o propósito de transformar a forma como as pessoas aprendem. Somos uma plataforma de educação digital que une tecnologia, inovação e metodologia moderna para tornar o conhecimento mais acessível, dinâmico e envolvente.
+Aqui, acreditamos que aprender deve ser uma experiência contínua e inspiradora. Por isso, desenvolvemos soluções que conectam estudantes, professores e conteúdos de qualidade em um ambiente digital interativo.
+Nosso compromisso é impulsionar o aprendizado do futuro — um aprendizado sem barreiras, adaptado às necessidades de cada pessoa e preparado para os desafios do mundo em constante mudança.</p>
+        <img src="./assets/img/sobre.jpeg" alt="Duas crianças utilizando um notebook">
+
+    </div>
+
+    <div class="destaques">
+            <div class="cards">
+                <h2>Professores experientes</h2>
+                <p>Nossa equipe é formada por educadores apaixonados e altamente qualificados, com anos de experiência em sala de aula e no desenvolvimento de metodologias inovadoras. Cada professor traz consigo não apenas conhecimento profundo da sua área, mas também a habilidade de transformar conceitos complexos em aprendizado prático e envolvente. Aqui, acreditamos que a educação de qualidade nasce da experiência, do olhar atento ao aluno e da capacidade de inspirar curiosidade e autonomia.</p>
+
+            </div>
+            <div class="cards">
+                <h2>Aulas práticas</h2>
+                <p>Aprender na teoria é importante, mas colocar a mão na massa faz toda a diferença. Nossas aulas são projetadas para que cada conceito seja aplicado em exercícios reais, projetos e desafios que simulam situações do mundo profissional. Assim, você aprende fazendo, fixando o conhecimento e desenvolvendo habilidades que realmente importam.</p>
+                <p>Cada aluno é único, e acreditamos que o aprendizado também deve ser. Oferecemos acompanhamento personalizado, tirando dúvidas, ajustando o ritmo das aulas e criando planos de estudo que se adaptam às suas necessidades. Com nosso suporte individual, você nunca aprende sozinho.</p>
+
+            </div>
+            <div class="cards">
+                <h2>Suporte individual</h2>
+                <p>Cada aluno é único, e acreditamos que o aprendizado também deve ser. Oferecemos acompanhamento personalizado, tirando dúvidas, ajustando o ritmo das aulas e criando planos de estudo que se adaptam às suas necessidades. Com nosso suporte individual, você nunca aprende sozinho.</p>
+
+            </div>
+        </div>
+ </main>
+        <footer class="footer">
+            <div class="footer-content">
+              <div class="footer-copyright">
+                <p>
+                  &copy; <span id="2025"></span> Quero Educação. Todos os direitos
+                  reservados.
+                </p>
+              </div>
+              <div class="footer">
+                <a href="#"
+                  ><img src="./assets/img/facebook_icon.png" alt="Logo Facebook"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/instagram_icon.png" alt="Logo Instagram"
+                /></a>
+              </div>
+            </div>
+          </footer>
+</body>
+</html>
